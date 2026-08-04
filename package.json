@@ -1,0 +1,39 @@
+{
+  "name": "img-tracer",
+  "version": "1.0.0",
+  "description": "Convert raster images to inline SVG using color separation and potrace",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "svg",
+    "image",
+    "tracer",
+    "potrace",
+    "inline-svg",
+    "raster-to-vector"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jimp": "^1.6.1",
+    "potrace": "^2.1.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}
