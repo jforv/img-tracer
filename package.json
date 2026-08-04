@@ -2,6 +2,15 @@
   "name": "img-tracer",
   "version": "1.0.0",
   "description": "Convert raster images to inline SVG using color separation and potrace",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jforv/img-tracer.git"
+  },
+  "homepage": "https://github.com/jforv/img-tracer#readme",
+  "bugs": {
+    "url": "https://github.com/jforv/img-tracer/issues"
+  },
+  "author": "jforv",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
